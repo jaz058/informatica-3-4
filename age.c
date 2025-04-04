@@ -11,5 +11,5 @@ int age = 17;
 //Print the age variable
 printf( "Age: %d\n", age);
 
-return 0;
+
 }
