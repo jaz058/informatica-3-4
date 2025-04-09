@@ -1,8 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    int length = 20;
-    int width = 15;
+    int length;
+    printf("Enter a rectangular length: ");
+    scanf("%d", &length);
+    printf("Number = %d",length);
+    int width 
+    printf("Enter a rectamgular width: ");
+    scanf("%d", &width);
+    printf("Number = %d",width);
+
     int area = (length *width);
     int perimeter = (width * 2 + length *2);
 
@@ -17,6 +24,8 @@ int time = 349;
 int hours = time/60;
 int minutes = time%60;
 printf("\n%d minutes is equal to %d minutes. %d\n", time, hours, minutes);
+
+
 return 0;
 
 }
