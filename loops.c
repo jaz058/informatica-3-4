@@ -28,5 +28,9 @@ printf("Enter a positive number:");
 scanf("%d", &k);
 
 int l;
-int 
+int multiply = 1;
+for (l = 1; l < k * 1; ++l) {
+   multiply = multiply * l; 
+}
+printf("%d", multiply);
 }
