@@ -1,35 +1,35 @@
 #include <stdio.h>
 #include <math.h>
-//While loop exponent
-//int main(){
-//int base;
-  //  printf("Enter a base number: ");
-    //scanf("%d", &base);
+int main()
+// {Bucle While exponent
+// int base;
+// printf("Ingrese el número base:");
+// scanf("%d",&base);
 
-    //int exponent;
-    //printf("Enter the exponent : ");
-    //scanf("%d", &exponent);
 
-    //int i=1;
-//int result = base;
-    //do {result = base * result;
-       // i++;
-     //}
-     //while(i < exponent);
+// int exponent;
+// printf("Ingrese el exponente:");
+// scanf("%d",&exponent);
+//
+// int i=1;
+// int result = base;
+// do { result= base * result;
+// i++;
 
-     //printf("%d ^ %d\n", base, exponent, result);
+// while (i<exponent);
 
-     //return 0;
 
-     //Library Functions
-     
- {
-    float num, root;
-     printf("enter a number:");
-     scanf("%f", &num);
+// printf("%d ^ %d= %d\n", base,exponent, result);
+{
+//Funciones de la biblioteca de C
+float num, root;
+printf("Ingrese un número:");
+scanf("%f", &num);
 
-root=sqrt (num);
-printf("squre root of %.2f=%.2f, num, root");
+//Calcula la raíz cuadrada de num y la almacena en root.
+root= sqrt (num);
+
+printf("raíz cuadrada de %.2f = %.2f", num, root);
+
+return 0;
 }
-
-    
